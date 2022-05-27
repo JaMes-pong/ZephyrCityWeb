@@ -7,12 +7,12 @@ function footer() {
             <div className="container">
                 <div className="footer">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-sm-6">
                             <h1 className="logo1">mc_threebuilders_hk</h1>
                             <h1 className="logo">Zephyr City</h1>
-                            <p>website</p>
+                            <p>zephyrcity-project.netlify.app</p>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-6">
                             <h1>Find Us</h1>
                             <p>If you would like to know more about Zephyr City or our other projects, let's chat!</p>
                             <div class="card">
