@@ -23,7 +23,12 @@ body, html {
   background-color: rgba(0, 0, 0, 0.192);
 }
 
-#navbar a {
+#navbar #logo{
+  font-family: 'Bungee', cursive;
+  color: #30cdec;
+}
+
+#navbar .navbar-nav a {
   color: rgb(190, 190, 190);
 }
 
@@ -34,7 +39,8 @@ body, html {
 
 #navbar li {
   display: inline-block;
-  margin: 0 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 /* homepage slider */
