@@ -1,13 +1,132 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Public+Sans:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300&display=swap');
+
+* {
+  font-family: 'Public Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, html {
+  height: 100%;
 }
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+#navbar a {
+  color: rgb(190, 190, 190);
+}
+
+#navbar a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 5px 20px rgba(0, 0, 0, 1);
+}
+
+#navbar li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+/* homepage slider */
+img {
+  min-width: 100%;
+  max-height: 100vh;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.carousel-caption h1 {
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  font-size: 72px;
+  text-shadow: 2px 5px 20px rgba(0, 0, 0, 1);
+}
+
+.carousel-caption h2 {
+  text-align: center;
+  font-weight: 300;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 5px 20px rgba(0, 0, 0, 1);
+}
+/* homepage slider end */
+
+/* footer */
+.footer-out {
+  background-color: #45ABCA;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 1px;
+}
+
+.footer h1 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.footer p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.footer .card {
+  background-color: #338097;
+}
+
+.footer .card-header {
+  color: rgb(255, 255, 255);
+}
+
+.footer .card-body p {
+  color: rgb(255, 255, 255);
+}
+
+.footer .card-body a {
+  text-decoration: none;
+  color: #FCAF45;
+}
+
+.footer .card-body a:hover {
+  text-decoration: none;
+  color: #FFDC80;
+}
+
+.footer .logo1 {
+  font-family: 'Bungee', cursive;
+  color: #fdfdfd;
+}
+
+.footer .logo {
+  font-family: 'Bungee', cursive;
+  color: #13606F;
+}
+
+.footer #last {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* footer end*/
