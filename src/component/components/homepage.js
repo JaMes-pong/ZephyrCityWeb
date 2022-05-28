@@ -17,28 +17,28 @@ function homepage() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={sliderImage1} className="d-block w-100" alt="..."/>
+                        <img src={sliderImage1}  alt="..."/>
                             <div className="carousel-caption d-none d-sm-block">
                                 <h2>Greeting From</h2>
                                 <h1>Zephyr City</h1>
                             </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={sliderImage2} className="d-block w-100" alt="..."/>
+                        <img src={sliderImage2}  alt="..."/>
                             <div className="carousel-caption d-none d-sm-block">
                                 <h2>A Minecraft City With</h2>
-                                <h1>Greatest Detail</h1>
+                                <h1>Greatest Detailed</h1>
                             </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={sliderImage3} className="d-block w-100" alt="..."/>
+                        <img src={sliderImage3}  alt="..."/>
                             <div className="carousel-caption d-none d-sm-block">
                                 <h2>Ethereal, Verdant And Picturesque</h2>
                                 <h1>Scenery</h1>
                             </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={sliderImage4} className="d-block w-100" alt="..."/>
+                        <img src={sliderImage4}  alt="..."/>
                             <div className="carousel-caption d-none d-sm-block">
                                 <h2>Come And Enjoy Your Jounery In</h2>
                                 <h1>Zephyr City</h1>

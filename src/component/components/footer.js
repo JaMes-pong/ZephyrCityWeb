@@ -6,27 +6,15 @@ function footer() {
         <div className="footer-out">
             <div className="container">
                 <div className="footer">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h1 className="logo1">mc_threebuilders_hk</h1>
-                            <h1 className="logo">Zephyr City</h1>
-                            <p>zephyrcity-project.netlify.app</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <h1>Find Us</h1>
-                            <p>If you would like to know more about Zephyr City or our other projects, let's chat!</p>
-                            <div class="card">
-                                <div class="card-header">
-                                    Find Us on:
-                                </div>
-                                <div class="card-body">
-                                    <p>Instagram: <a href="https://www.instagram.com/mc_threebuilders_hk/" target="_blank">@mc_threebuilders_hk</a></p>
-                                    {/* <p>gmail.com</p> */}
-                                </div>
-                            </div>
-                        </div>
+                    <h1 className="logo1">Building With Dream</h1>
+                    <h4 className="logo">Zephyr City By mc_threebuilders_hk</h4>
+                    <hr/>
+                    <div className="contact-box">
+                        <p>Contact Us At:<br/>Instagram: <span className="contact"><a href="https://www.instagram.com/mc_threebuilders_hk/" target="_blank">@mc_threebuilders_hk</a></span></p>
                     </div>
-                    <p id="last">Copyright 2022, The Zephyr City Project.<br/>All rights reserved.</p>
+                    <hr/>
+                    <p id="last">zephyrcity-project.netlify.app</p>
+                    <p id="last">Copyright 2022, The Zephyr City Project. All rights reserved.</p>
                 </div>
             </div>
         </div>
