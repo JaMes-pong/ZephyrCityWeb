@@ -4,10 +4,37 @@
   font-family: 'Public Sans', sans-serif;
 }
 
-.bg-gallery {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-height: 100vh;
-    max-width: 100%;
+/* body {  
+  background-image: url(./component/images/bg_gallery.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+} */
+
+.gallery-content {
+  padding-top: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.gallery-content h4{
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(206,97,97,0);
+  color: #FFFFFF;
+  background: #3f3f3f4d;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .gallery-content {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .gallery-content {
+    margin-top: 20%;
+  }
 }

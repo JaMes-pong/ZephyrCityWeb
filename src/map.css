@@ -5,15 +5,10 @@
 }
 
 .topic-word {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+    padding-top: 25%;
 }
 
-.topic-word  h1 {
+.topic-word h1 {
     text-align: center;
     font-weight: 800;
     color: white;
@@ -21,7 +16,7 @@
     text-shadow: 2px 5px 20px rgba(0, 0, 0, 1);
 }
 
-.topic-word  h2 {
+.topic-word h2 {
     text-align: center;
     font-weight: 300;
     color: white;
