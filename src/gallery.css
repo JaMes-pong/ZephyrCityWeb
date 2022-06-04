@@ -13,12 +13,24 @@
 } */
 
 .gallery-content {
-  padding-top: 8%;
+  padding-top: 4%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
+.gallery-content .gallery-content-title {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(206,97,97,0);
+  color: #FFFFFF;
+  background: #3f3f3f4d;
+  text-align: center;
+}
+
 .gallery-content h4{
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 1.5%;
   margin-bottom: 1.5%;
   text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(206,97,97,0);

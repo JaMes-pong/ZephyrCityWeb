@@ -7,8 +7,8 @@ import GalleryImage5 from "../images/gallery_images/g_5.png";
 import GalleryImage6 from "../images/gallery_images/g_6.png";
 
 function Gallerypage() {
-
     const [images, setImages] = useState([{}]);
+
     const galleryImages = [
         {
             title: "Gallery Image 1",
@@ -49,13 +49,19 @@ function Gallerypage() {
     return (
         <div className="gallery">
             <div className="gallery-content">
+                <div className="gallery-content-title">
+                    <h1>Zephyr Gallery</h1>
+                    <h5>Click on the image to view it as fullscreen.</h5>
+                </div>
                 <div class="row">
                     <div class="col">
                         {images.map((image, index) => {
                         if (index % 2 === 0) {
                             return (
                                 <div>
-                                    <img src={image.src} class="img-fluid" alt="..."/>
+                                    <a target="_blank" rel="noreferrer" href={image.src}>
+                                        <img src={image.src} class="img-fluid" alt="..."/>
+                                    </a>
                                     <h4>{image.description}</h4>
                                 </div>
                             )
@@ -64,10 +70,12 @@ function Gallerypage() {
                     </div>
                     <div class="col">
                         {images.map((image, index) => {
-                        if (index % 2 != 0) {
+                        if (index % 2 !== 0) {
                             return (
                                 <div>
-                                    <img src={image.src} class="img-fluid" alt="..."/>
+                                    <a target="_blank" rel="noreferrer" href={image.src}>
+                                        <img src={image.src} class="img-fluid" alt="..."/>
+                                    </a>
                                     <h4>{image.description}</h4>
                                 </div>
                             )

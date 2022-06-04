@@ -31,6 +31,17 @@ body, html {
   height: 100vh;
 }
 
+.about {
+  background-image: url(./component/images/bg_about.png);
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* bg images end*/
 
 /* navbar */
@@ -46,7 +57,7 @@ body, html {
 }
 
 #navbar {
-  background-color: rgba(0, 0, 0, 0.192);
+  background-color: rgba(0, 0, 0, 0.438);
 }
 
 #navbar #logo{
